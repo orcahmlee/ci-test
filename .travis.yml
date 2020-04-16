@@ -1,7 +1,7 @@
-language: python
-sudo: false
-python:
-  - 3.6
-script: python -V
-
-
+language: node_js
+node_js:
+  - "6"
+install:
+    - npm install
+script:
+    - npm start
