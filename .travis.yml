@@ -1,7 +1,6 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
- 
-scrpit:
-  - date
+language: python
+sudo: false
+python:
+- 2.7
+- 3.4
+script: py.test -v
